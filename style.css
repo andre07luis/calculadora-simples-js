@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(174, 253, 227);
+}
+
+main {
+    background-color: rgb(83, 82, 82);
+    width: 350px;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.651);
+}
+ #visor {
+    background-color: rgb(0, 161, 0);
+    color: rgb(0, 56, 14);
+    margin: 0.8rem 1.5rem;
+    border-style: inset;
+    font-size: 1.5rem;
+ }
+
+ button {
+    width: 35px;
+    margin: 2px;
+    padding: 2px;
+    font-weight: bold;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616);
+ }
+
+ section {
+    margin: 0 13px;
+ }
