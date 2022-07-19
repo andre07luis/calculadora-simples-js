@@ -15,32 +15,48 @@ main {
     padding: 2px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.651);
 }
- #visor {
+#visor {
     background-color: rgb(0, 161, 0);
     color: rgb(0, 56, 14);
-    margin: 0.8rem 1.3rem;
+    /*margin: 0.8rem 1.3rem;*/
     border-style: inset;
     font-size: 1.3rem;
     line-height: 3rem;
- }
+}
 
- .botao {
+.botao {
     width: 49px;
     height: 49px;
-    margin: 0.2rem 0.3rem;
+    /*margin: 0.2rem 0.3rem;*/
     padding: 0.2rem;
     font-weight: bold;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
     background: linear-gradient(to right, #232323, #202020);
     border-radius: 5px;
     color: white;
- }
+}
 
- .botao:hover {
+.botao:hover {
     background: linear-gradient(to right, #afafaf, #727272);
     color: #232323;
- }
+}
 
- section {
-    margin: 0 13px;
+form {
+    margin: 0 30px;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+a:hover {
+   color: white;
+   text-shadow: 0.1rem 0.1rem 0.3rem rgba(255, 255, 255, 0.555);
+}
+
+footer {
+   text-align: center;
+   text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 0.555);
+   font-style: italic;
  }

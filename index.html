@@ -9,38 +9,43 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <main name="calculadora">
-        <input type="text" name="visor" id="visor" disabled>
-        <section>
+    <main>
+        <form action="#" name="calculadora">
+            <input type="text" name="visor" id="visor" disabled>
+            
             <input type="button" value="C" class="botao" onclick="clean()">
-            <input type="button" value="DEL" class="botao">
+            <input type="button" value="DEL" class="botao" onclick="apagar()">
             <input type="button" value="(" class="botao" name="btnpara" onclick="displaynum(btnpara.value)">
             <input type="button" value=")" class="botao" name="btnparb" onclick="displaynum(btnparb.value)">
-        </section>
-        <section>
+        
+        
             <input type="button" value="7" class="botao" name="btn7" onclick="displaynum(btn7.value)">
             <input type="button" value="8" class="botao" name="btn8" onclick="displaynum(btn8.value)">
             <input type="button" value="9" class="botao" name="btn9" onclick="displaynum(btn9.value)">
             <input type="button" value="+" class="botao" name="btnadd" onclick="displaynum(btnadd.value)">
-        </sectivalueon>
-        <section>
+        
+        
             <input type="button" value="4" class="botao" name="btn4" onclick="displaynum(btn4.value)">
             <input type="button" value="5" class="botao" name="btn5" onclick="displaynum(btn5.value)">
             <input type="button" value="6" class="botao" name="btn6" onclick="displaynum(btn6.value)">
             <input type="button" value="-" class="botao" name="btnmen" onclick="displaynum(btnmen.value)">
-        </section>
-        <section>
+        
+        
             <input type="button" value="1" class="botao" name="btn1" onclick="displaynum(btn1.value)">
             <input type="button" value="2" class="botao" name="btn2" onclick="displaynum(btn2.value)">
             <input type="button" value="3" class="botao" name="btn3" onclick="displaynum(btn3.value)">
             <input type="button" value="/" class="botao" name="btndiv" onclick="displaynum(btndiv.value)">
-        </section>
-        <section>
+        
+        
             <input type="button" value="." class="botao" name="btnpnt" onclick="displaynum(btnpnt.value)">
             <input type="button" value="0" class="botao" name="btn0" onclick="displaynum(btn0.value)">
             <input type="button" value="*" class="botao" name="btnmult" onclick="displaynum(btnmult.value)">
             <input type="button" value="=" class="botao" name="btnigual" onclick="visor.value=eval(visor.value)">
-        </section>
+           
+        </form>
     </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/andre07luis/" target="_blank">André Luís</a> &#xA9;</p>
+    </footer>
 </body>
 </html>
