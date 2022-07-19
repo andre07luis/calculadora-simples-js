@@ -9,7 +9,7 @@ body {
 
 main {
     background-color: rgb(83, 82, 82);
-    width: 350px;
+    width: 300px;
     border-radius: 5px;
     margin: auto;
     padding: 2px;
@@ -18,17 +18,27 @@ main {
  #visor {
     background-color: rgb(0, 161, 0);
     color: rgb(0, 56, 14);
-    margin: 0.8rem 1.5rem;
+    margin: 0.8rem 1.3rem;
     border-style: inset;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    line-height: 3rem;
  }
 
- button {
-    width: 35px;
-    margin: 2px;
-    padding: 2px;
+ .botao {
+    width: 49px;
+    height: 49px;
+    margin: 0.2rem 0.3rem;
+    padding: 0.2rem;
     font-weight: bold;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.616);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    background: linear-gradient(to right, #232323, #202020);
+    border-radius: 5px;
+    color: white;
+ }
+
+ .botao:hover {
+    background: linear-gradient(to right, #afafaf, #727272);
+    color: #232323;
  }
 
  section {
