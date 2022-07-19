@@ -3,5 +3,9 @@ function displaynum(num) {
 }
 
 function clean() {
-    document.getElementById('visor').innerHTML = ''
+    calculadora.visor.value = ''
+}
+
+function apagar() {
+    calculadora.visor.value = calculadora.visor.value.substring(0, visor.value.length -1)
 }
